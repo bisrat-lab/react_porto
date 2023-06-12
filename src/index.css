@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heroBtn {
+        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-400 transition-all hover:border-[#f7ab0a] hover:text-[#F89600] dark:text-slate-700 dark:border-gray-100 dark:hover:border-[#E76500] dark:hover:text-[#E76500] dark:transition-all
+    }
+    .heroBtnSmall {
+        @apply px-6 py-2 border-b m-2  rounded-full uppercase text-xs tracking-widest text-gray-400 transition-all border-b-[#5c4e31] dark:border-b-[#f7ab0a] hover:text-[#F89600] dark:text-slate-700  dark:hover:border-[#E76500] dark:hover:text-[#E76500] dark:transition-all
+    }
+    .contactInp{
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-4 md:px-6 py-2 md:py-6 border-[#242424] text-gray-400 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40 hover:border-[#f7ab0a]/40 placeholder:text-xs md:placeholder:text-base
+    }
+    .errors{
+        @apply outline-none bg-slate-400/10 rounded-sm border-b-4  px-6 py-4 border-red-700 text-gray-400 placeholder-gray-500 transition-all focus:border-red-700 focus:text-[#f7ab0a]/40 hover:border-red-700
+    }
+    .socialIcon{
+        @apply  border dark:border-white border-gray-500 hover:border-[#f7ab0a]/60 rounded-full p-1 cursor-pointer dark:hover:border-[#f7ab0a]
+    }
+
+    
+}

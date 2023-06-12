@@ -1,8 +1,10 @@
+import Header from "./component/Header";
 import Hero from "./component/Hero";
 
 function App() {
   return (
     <div className="bg-[rgb(36,36,36)] ">
+      <Header/>
       <div className="snap-y snap-mandatory h-screen overflow-scroll bg-[rgb(36,36,36)] ">
         <div className="snap-start  w-screen h-screen flex items-center justify-center text-8xl ">
           <Hero/>
@@ -18,7 +20,7 @@ function App() {
         </div>
       </div>
       <a href="#hero">
-        <footer className="sticky bottom-12 w-full cursor-pointer">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <p>B</p>
           </div>

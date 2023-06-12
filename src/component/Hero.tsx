@@ -7,6 +7,7 @@ import bisImage from '../assets/images/bis.png'
 
 
 
+
 const Hero = () => {
     const [text] = useTypewriter({
         words: [
@@ -19,6 +20,7 @@ const Hero = () => {
       })
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden '>
+       
         <BgCircle/>
         <img src={bisImage} height={100} width={100} alt="bisrat" className='relative rounded-full h-32 w-32 mx-auto object-cover animate-pulse'/>
         <div className='z-20'>

@@ -41,7 +41,7 @@ const BgCircle = () => {
       />
       <div
         className="border border-[#E76500] dark:border-[#E76500] rounded-full
-         md:h-[800px] md:w-[800px]  h-[680px] z-50 w-[380px] mt-52  absolute"
+         md:h-[600px] md:w-[600px]  h-[400px]  z-50 w-[400px] mt-52  absolute"
       />
     </motion.div>
   );

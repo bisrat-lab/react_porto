@@ -2,9 +2,9 @@ import Hero from "./component/Hero";
 
 function App() {
   return (
-    <div>
-      <div className="snap-y snap-mandatory h-screen overflow-scroll">
-        <div className="snap-start bg-gray-100 w-screen h-screen flex items-center justify-center text-8xl">
+    <div className="bg-[rgb(36,36,36)] ">
+      <div className="snap-y snap-mandatory h-screen overflow-scroll bg-[rgb(36,36,36)] ">
+        <div className="snap-start  w-screen h-screen flex items-center justify-center text-8xl ">
           <Hero/>
         </div>
         <div className="snap-start bg-teal-200 w-screen  h-screen flex items-center justify-center text-8xl">
